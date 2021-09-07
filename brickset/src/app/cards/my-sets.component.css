@@ -1,0 +1,9 @@
+.card {
+    height: 200px;
+    background-color: lightgray;
+
+}
+
+.card-title {
+    font-family: "Times New Roman", serif;
+}

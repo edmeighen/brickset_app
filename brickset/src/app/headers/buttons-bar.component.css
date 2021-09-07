@@ -1,0 +1,32 @@
+.btn.button1 {
+    background-color: lawngreen;
+}
+
+.btn.button2 {
+    background-color: green;
+}
+
+.btn.button5 {
+    background-color: goldenrod;
+}
+
+.btn {
+    width: 140px;
+    color: white;
+}
+
+.dropdown-menu {
+    width: 650px;
+}
+
+.dropdown-menu.dm1 {
+    background-color: lawngreen;
+}
+
+.dropdown-menu.dm2 {
+    background-color:green;
+}
+
+.dropdown-menu.dm3 {
+    background-color: goldenrod;
+}

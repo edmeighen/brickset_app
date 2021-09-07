@@ -25,7 +25,11 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/app/headers/BricksetLogo.png"
+              {
+                "glob": "bootstrap-icons.svg",
+                "input": "./node_modules/icons-1.5.0/icons",
+                "output": "/"
+              }
             ],
             "styles": [
               "node_modules/bootstrap-5.1.0-dist/css/bootstrap.css",

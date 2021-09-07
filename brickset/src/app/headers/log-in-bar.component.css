@@ -1,0 +1,8 @@
+.button {
+    border-radius: 50%;
+}
+
+.nav-pills .nav-link:hover{
+    background-color: darkgray;
+    color: white;
+}
