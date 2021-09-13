@@ -27,15 +27,15 @@
               "src/assets",
               {
                 "glob": "bootstrap-icons.svg",
-                "input": "./node_modules/icons-1.5.0/icons",
+                "input": "./node_modules/bootstrap-icons/icons",
                 "output": "/"
               }
             ],
             "styles": [
-              "node_modules/bootstrap-5.1.0-dist/css/bootstrap.css",
+              "node_modules/bootstrap/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": ["node_modules/bootstrap-5.1.0-dist/js/bootstrap.bundle.js"]
+            "scripts": ["node_modules/bootstrap/js/bootstrap.bundle.js"]
           },
           "configurations": {
             "production": {
