@@ -10,6 +10,9 @@ import { MySetsComponent } from './cards/my-sets.component';
 import { MinifigsComponent } from './cards/minifigs.component';
 import { DailyBugleComponent } from './cards/daily-bugle.component';
 import { LayoutMainComponent } from './layout/layout-main.component';
+//import { AppRoutingModule } from './app-routing.module';
+import { BodyComponent } from './body/body.component';
+import { ByYearComponent } from './body/by-year.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +24,13 @@ import { LayoutMainComponent } from './layout/layout-main.component';
     MySetsComponent, 
     MinifigsComponent, 
     DailyBugleComponent, 
-    LayoutMainComponent
+    LayoutMainComponent,
+    BodyComponent,
+    ByYearComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    //AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
