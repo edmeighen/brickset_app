@@ -1,36 +1,36 @@
 <div class="card mb-3 ms-4" style="max-width: 800px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="./assets/dailybugle.jpeg" class="img-fluid rounded-start ms-5" alt="dailybugle" style="height:300px;">
+        <img src={{image}} class="img-fluid rounded-start ms-5" alt={{alt}} style="height:300px;">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h3 class="card-title"><strong>76178: Daily Bugle</strong></h3>
+          <h3 class="card-title"><strong>{{number}}: {{name}}</strong></h3>
           <nav class="navbar">
             <ul class="nav d-grid gap-2 d-flex">
-                <li><button class="button" type="button">76178-1</button></li>
-                <li><button class="button" type="button">MARVEL SUPER HEROES</button></li>
-                <li><button class="button" type="button">SPIDER-MAN</button></li>
-                <li><button class="button" type="button">2021</button></li>
+                <li><button class="button" type="button">{{number}}</button></li>
+                <li><button class="button" type="button">{{theme}}</button></li>
+                <li><button class="button" type="button">{{subtheme}}</button></li>
+                <li><button class="button" type="button">{{year}}</button></li>
             </ul>
           </nav>
           <div class="sameline">
             <p class="card-text topic"><strong>PIECES</strong></p>
-            <p class="card-text follow">3772</p>
+            <p class="card-text follow">{{pieces}}</p>
           </div>
           <div class="sameline">
             <p class="card-text topic"><strong>MINIFIGS</strong></p>
-            <p class="card-text follow">25</p>
-            <p class="card-text">(19 Unique to this set)</p>
+            <p class="card-text follow">{{minifigs}}</p>
+            <p class="card-text">{{figextra}}</p>
           </div>
           <div class="sameline">
             <p class="card-text topic"><strong>RRP</strong></p>
-            <p class="card-text">$299.99, 299.99€ |</p>
+            <p class="card-text">{{rrp}}</p>
             <p class="card-text follow">More</p>
           </div>
           <div class="sameline">
             <p class="card-text topic"><strong>AVAILABILITY</strong></p>
-            <p class="card-text">LEGO Exclusive</p>
+            <p class="card-text">{{availability}}</p>
           </div>
         </div>
       </div>

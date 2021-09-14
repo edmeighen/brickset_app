@@ -9,10 +9,19 @@ import { ButtonsBarComponent } from './headers/buttons-bar.component';
 import { MySetsComponent } from './cards/my-sets.component';
 import { MinifigsComponent } from './cards/minifigs.component';
 import { DailyBugleComponent } from './cards/daily-bugle.component';
+import { LayoutMainComponent } from './layout/layout-main.component';
 
 @NgModule({
   declarations: [
-    AppComponent, TopBarComponent, LogInBarComponent, SearchBarComponent, ButtonsBarComponent, MySetsComponent, MinifigsComponent, DailyBugleComponent
+    AppComponent, 
+    TopBarComponent, 
+    LogInBarComponent, 
+    SearchBarComponent, 
+    ButtonsBarComponent, 
+    MySetsComponent, 
+    MinifigsComponent, 
+    DailyBugleComponent, 
+    LayoutMainComponent
   ],
   imports: [
     BrowserModule
