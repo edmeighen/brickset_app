@@ -1,0 +1,32 @@
+Ethan Meighen
+CS 230
+Brickset Change Log
+
+Assignment 3:
+Main features:
+-Used data binding on set card to have a card template where I can just change the attributes on each card
+-attributes include:
+	-image
+	-alternate image name
+	-set number
+	-set name
+	-theme
+	-subtheme
+	-year
+	-pieces
+	-minifigures
+	-rrp
+	-availability
+
+-Added layout component used Bootstrap grid system
+
+-Both versions of the website are seen: without grid and with grid
+
+Bonus Features:
+-Tried to start on routing but did not get very far
+
+To Do:
+-Icons
+-Routing
+-More Cards
+-Correct colors and backgrounds

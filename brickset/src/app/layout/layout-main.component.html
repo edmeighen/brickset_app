@@ -1,23 +1,24 @@
 <div class="component">
-    <div class="row">
-        <div class="col-2" style="background: gold">
-            L
-        </div>
-        <div class="col" style="background: blue">
-            R
-        </div>
-        <app-log-in-bar></app-log-in-bar>
+    <div class="row" style="height: 100px;">
+        <!--header white area-->
     </div>
     <div class="row">
-        <app-search-bar></app-search-bar>
-    </div>
-    <div class="row">
-        <app-buttons-bar></app-buttons-bar>
-    </div>
-    <div class="row">
-        <div class="col-2">
-            <p><strong>Home</strong> > Your Collection</p>
+        <div class="col-1" style="background: white">
+            <!--left side white area-->
         </div>
+        <div class="col ps-0 pe-0" style="background: white">
+            <app-log-in-bar></app-log-in-bar>
+            <app-search-bar></app-search-bar>
+            <app-buttons-bar></app-buttons-bar>
+            <div class="row">
+                <div class="col-2">
+                    <p><strong>Home</strong> > Your Collection</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-1" style="background:white">
+            <!--right side white area-->
+        </div> 
     </div>
     <div class="row">
         <div class="col offset-md-1">
