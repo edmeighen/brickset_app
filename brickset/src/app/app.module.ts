@@ -11,7 +11,11 @@ import { MinifigsComponent } from './cards/minifigs.component';
 import { DailyBugleComponent } from './cards/daily-bugle.component';
 import { LayoutMainComponent } from './layout/layout-main.component';
 import { AppRoutingModule } from './app-routing.module';
-import { BodyComponent } from './body/body.component';
+import { HomeComponent } from './body/home/home.component';
+import { BrowseComponent } from './body/browse/browse.component';
+import { BuyComponent } from './body/buy/buy.component';
+import { ForumComponent } from './body/forum/forum.component';
+
 
 @NgModule({
   declarations: [
@@ -23,8 +27,7 @@ import { BodyComponent } from './body/body.component';
     MySetsComponent, 
     MinifigsComponent, 
     DailyBugleComponent, 
-    LayoutMainComponent,
-    BodyComponent
+    LayoutMainComponent, HomeComponent, BrowseComponent, BuyComponent, ForumComponent
   ],
   imports: [
     BrowserModule,
