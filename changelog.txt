@@ -2,6 +2,29 @@ Ethan Meighen
 CS 230
 Brickset Change Log
 
+Assignment 4:
+Main features:
+-Added angular routing to
+	-upper left image (home)
+	-browse button
+	-buy button
+	-my sets button
+	-forum button
+-Added layout to
+	-browse
+	-buy
+	-my sets
+
+Bonus features:
+-Added flag picture to country button
+
+To Do:
+-Icons
+-Home layout
+-Forum layout
+-add components to buy layout for easy html code
+-make buy dropdowns better
+
 Assignment 3:
 Main features:
 -Used data binding on set card to have a card template where I can just change the attributes on each card
