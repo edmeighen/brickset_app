@@ -14,6 +14,7 @@ Main features:
 	-browse
 	-buy
 	-my sets
+	-home
 -Made "Home - ___" work with routing
 
 Bonus features:
@@ -21,7 +22,7 @@ Bonus features:
 
 To Do:
 -Icons
--Home layout
+-complete Home layout
 -Forum layout
 -add components to buy layout for easy html code
 -make buy dropdowns better
