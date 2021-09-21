@@ -16,6 +16,7 @@ import { BrowseComponent } from './body/browse/browse.component';
 import { BuyComponent } from './body/buy/buy.component';
 import { ForumComponent } from './body/forum/forum.component';
 import { MySetsComponent } from './body/my-sets/my-sets.component';
+import { OurDatabaseComponent } from './body/browse/our-database.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { MySetsComponent } from './body/my-sets/my-sets.component';
     BrowseComponent, 
     BuyComponent, 
     ForumComponent, 
-    MySetsComponent
+    MySetsComponent,
+    OurDatabaseComponent
   ],
   imports: [
     BrowserModule,
