@@ -1,0 +1,27 @@
+.card-title {
+    font-family: "Times New Roman", serif;
+    letter-spacing: -2px;
+}
+
+.button {
+    background-color: royalblue;
+    color: white;
+}
+
+.topic {
+    color: dimgray;
+    font-family: "Times New Roman", serif;
+}
+
+.follow {
+    color: steelblue;
+}
+
+.sameline {
+    display: flex;
+    vertical-align: top;
+}
+
+.card {
+    background-color: lightgrey;
+}

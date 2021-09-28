@@ -1,36 +1,36 @@
 <div class="card mb-3 ms-4" style="max-width: 800px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src={{imgPath}} class="img-fluid rounded-start ms-5" alt="db" style="height:300px;">
+        <img src={{imgPath}} class="img-fluid rounded-start ms-5" alt={{altId}} style="height:300px;">
       </div>
       <div class="col-md-8">
         <div class="card-body">
           <h3 class="card-title"><strong>{{setNumber}}: {{setName}}</strong></h3>
           <nav class="navbar">
             <ul class="nav d-grid gap-2 d-flex">
-                <li><button class="button" type="button">00000</button></li>
-                <li><button class="button" type="button">marvel</button></li>
-                <li><button class="button" type="button">spiderman</button></li>
-                <li><button class="button" type="button">2021</button></li>
+                <li><button class="button" type="button">{{setNumber}}</button></li>
+                <li><button class="button" type="button">{{setTheme}}</button></li>
+                <li><button class="button" type="button">{{setSubtheme}}</button></li>
+                <li><button class="button" type="button">{{setYear}}</button></li>
             </ul>
           </nav>
           <div class="sameline">
             <p class="card-text topic"><strong>PIECES</strong></p>
-            <p class="card-text follow">a lot</p>
+            <p class="card-text follow">{{pieceCount}}</p>
           </div>
           <div class="sameline">
             <p class="card-text topic"><strong>MINIFIGS</strong></p>
-            <p class="card-text follow">20some</p>
-            <p class="card-text">exclusive</p>
+            <p class="card-text follow">{{setFigs}}</p>
+            <p class="card-text">{{figExtra}}</p>
           </div>
           <div class="sameline">
             <p class="card-text topic"><strong>RRP</strong></p>
-            <p class="card-text">$300</p>
+            <p class="card-text">{{setRrp}}</p>
             <p class="card-text follow">More</p>
           </div>
           <div class="sameline">
             <p class="card-text topic"><strong>AVAILABILITY</strong></p>
-            <p class="card-text">Lego</p>
+            <p class="card-text">{{setAvail}}</p>
           </div>
         </div>
       </div>
