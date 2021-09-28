@@ -2,6 +2,28 @@ Ethan Meighen
 CS 230
 Brickset Change Log
 
+Assignment 5:
+Main features:
+-Added routing to More... button
+-Added changeabe set cards using
+	-set-cards.component.html
+	-set-cards.component.ts
+	-set-cards.component.css
+	-mock-set-cards.ts
+	-set-card.model.ts
+	-more.component.html
+
+Bonus features:
+-made each card unique
+
+To Do:
+-Icons
+-Home layout
+-Forum layout
+-hoverable buttons
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
 Assignment 4:
 Main features:
 -Added angular routing to
