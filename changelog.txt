@@ -26,6 +26,9 @@ To Do:
 -Forum layout
 -add components to buy layout for easy html code
 -make buy dropdowns better
+-hoverable buttons
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 Assignment 3:
 Main features:

@@ -17,6 +17,8 @@ import { BuyComponent } from './body/buy/buy.component';
 import { ForumComponent } from './body/forum/forum.component';
 import { MySetsComponent } from './body/my-sets/my-sets.component';
 import { OurDatabaseComponent } from './body/browse/our-database.component';
+import { SetCardsComponent } from './body/set-cards.component';
+import { MoreComponent } from './body/more/more.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { OurDatabaseComponent } from './body/browse/our-database.component';
     BuyComponent, 
     ForumComponent, 
     MySetsComponent,
-    OurDatabaseComponent
+    OurDatabaseComponent,
+    SetCardsComponent,
+    MoreComponent
   ],
   imports: [
     BrowserModule,
