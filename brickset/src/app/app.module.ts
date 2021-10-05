@@ -19,6 +19,8 @@ import { MySetsComponent } from './body/my-sets/my-sets.component';
 import { OurDatabaseComponent } from './body/browse/our-database.component';
 import { SetCardsComponent } from './body/set-cards.component';
 import { MoreComponent } from './body/more/more.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './headers/user-info.component';
 
 
 @NgModule({
@@ -39,11 +41,13 @@ import { MoreComponent } from './body/more/more.component';
     MySetsComponent,
     OurDatabaseComponent,
     SetCardsComponent,
-    MoreComponent
+    MoreComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

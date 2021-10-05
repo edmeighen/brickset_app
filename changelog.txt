@@ -2,6 +2,24 @@ Ethan Meighen
 CS 230
 Brickset Change Log
 
+Assignment 6:
+Main features:
+-Created a fireplace backend for my website
+-backend had
+	-my info
+		-first and last name
+		-mix id
+		-github link
+-connected backend to main server (fronthand)
+
+To Do:
+-Icons
+-Home layout
+-Forum layout
+-hoverable buttons
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
 Assignment 5:
 Main features:
 -Added routing to More... button
