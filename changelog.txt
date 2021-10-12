@@ -2,6 +2,12 @@ Ethan Meighen
 CS 230
 Brickset Change Log
 
+Assignment 7:
+Main features:
+-
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
 Assignment 6:
 Main features:
 -Created a fireplace backend for my website

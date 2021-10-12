@@ -1,9 +1,8 @@
-import { HttpClient } from "@angular/common/http";
 import { OnInit } from "@angular/core";
 import { Component, Injectable } from "@angular/core";
 import { UserInfo } from "./user-info.model";
+import { UserInfoService } from "./user-info.service";
 
-@Injectable()
 @Component({
     selector: "brickset-user-info",
     templateUrl: "user-info.component.html"
@@ -11,22 +10,16 @@ import { UserInfo } from "./user-info.model";
 export class UserInfoComponent implements OnInit{
     myInfo: UserInfo | undefined;
 
-    constructor(private http:HttpClient) {
+    constructor(private infoService: UserInfoService) {
     }
 
     ngOnInit(): void {
-        console.log('Sending get request to server');
-        this.getUserInfo();
         console.log('Showing data');
         this.showUserInfo();
     }
 
-    getUserInfo() {
-        return this.http.get<UserInfo>("https://brickset-b70d8-default-rtdb.firebaseio.com/my-info.json");
-    }
-
     showUserInfo() {
-        this.getUserInfo().subscribe((data: UserInfo) => {
+        this.infoService.getUserInfo().subscribe((data: UserInfo) => {
             console.log(data);
             this.myInfo = data;
         })
