@@ -1,5 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
+import { SetCards } from "../set-card.model";
 import { SetCardInfo } from "./more.model";
 
 @Injectable({providedIn: 'root'})
@@ -9,6 +10,6 @@ export class MoreService {
     }
 
     getSetCardInfo() {
-        return this.http.get(this.url);
+        return this.http.get<SetCards[]>(this.url);
     }
 }

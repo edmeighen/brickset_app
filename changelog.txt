@@ -4,7 +4,12 @@ Brickset Change Log
 
 Assignment 7:
 Main features:
--
+-Added service component to communicate with backend
+-transferred data from mock-set-cards to firebase back end
+
+To Do:
+-Icons
+-Hoverable Buttons
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 

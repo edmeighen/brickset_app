@@ -10,20 +10,21 @@ import { MoreService } from "./more.service";
 })
 export class MoreComponent {
     setcards: SetCards [] = [];
-    setInfo: SetCardInfo[] | any;
 
     constructor(private moreService: MoreService) {
-        for (var setcard of mock_set_card) {
-            this.setcards.push(new SetCards(setcard))
-        }
-        this.moreService.getSetCardInfo().subscribe(data => {
-            console.log(data)
+       // for (var setcard of mock_set_card) {
+       //     this.setcards.push(new SetCards(setcard))
+       // }
+        this.moreService.getSetCardInfo().subscribe((data:SetCards[]) => {
+            //console.log(data)
             //playground, enhanced for loops, single element responses, etc.
-            this.setInfo = data;
-            console.log(this.setInfo)
-            console.log(this.setInfo.set1)
-            console.log(this.setInfo.set1.setName)
-            //works
+            for (const setcard in data){
+                console.log(data[setcard])
+                this.setcards.push(data[setcard]);
+            }
+            //https://stackoverflow.com/questions/11922383/how-can-i-access-and-process-nested-objects-arrays-or-json
+            //populate setcards array!!!
+            
         })
     }
 }
