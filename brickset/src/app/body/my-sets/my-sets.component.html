@@ -19,5 +19,10 @@
 
 <add-my-set-form></add-my-set-form>
 
-<my-set-card></my-set-card>
-//ngforloop
+
+
+<div *ngFor="let setcard of mysetcards">
+    <my-set-card-in imgPath={{setcard.imgPath}}
+    setName={{setcard.setName}}
+    setNumber={{setcard.setNumber}}></my-set-card-in>
+</div>

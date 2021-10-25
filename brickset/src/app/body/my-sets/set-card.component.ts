@@ -1,5 +1,5 @@
-import { Component, Injectable } from "@angular/core";
-import { MySetCardInfo } from "./set-card.model";
+import { Component, Injectable, Input } from "@angular/core";
+import { MySetCardInfo } from "./my-set-card.model";
 import { MySetCardService } from "./set-card.service";
 
 @Component({
@@ -8,18 +8,10 @@ import { MySetCardService } from "./set-card.service";
 })
 @Injectable({providedIn: 'root'})
 export class MySetCardComponent {
-    mysetcards: MySetCardInfo [] = [];
-
-    constructor(private mySetCardService: MySetCardService) {
-       
-        this.mySetCardService.getMySetCardInfo().subscribe((data:MySetCardInfo[]) => {
-
-            for (const setcard in data){
-                console.log(data[setcard])
-                this.mysetcards.push(data[setcard]);
-            }
-            
-            
-        })
-    }
+    @Input()
+    imgPath! : string;
+    @Input()
+    setName! : string;
+    @Input()
+    setNumber! : string;
 }

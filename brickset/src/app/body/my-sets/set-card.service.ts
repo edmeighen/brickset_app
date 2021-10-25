@@ -1,6 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { MySetCardInfo } from "./set-card.model";
+import { MySetCardInfo } from "./my-set-card.model";
 import { MySetCardComponent } from "./set-card.component";
 
 @Injectable({providedIn: 'root'})
