@@ -1,0 +1,64 @@
+Add Set Component
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <form #postForm="ngForm" (ngSubmit) = "onAddSetCard(postForm.value)">
+                <div class="col-6">
+                <div class="input-group">
+                    <span class="input-group-text">Set Name: </span>
+                    <input type="text" id="setName" class="form-control" ngModel name="setName">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Set Number: </span>
+                    <input type="text" id="setNumber" class="form-control" ngModel name="setNumber">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Piece Count: </span>
+                    <input type="text" id="pieceCount" class="form-control" ngModel name="pieceCount">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Set Picture ( include "./assets/"): </span>
+                    <input type="text" id="imgPath" class="form-control" ngModel name="imgPath">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Set Picture Alternate ID: </span>
+                    <input type="text" id="altId" class="form-control" ngModel name="altId">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Set Theme: </span>
+                    <input type="text" id="setTheme" class="form-control" ngModel name="setTheme">
+                </div>
+                </div>
+                <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">Set Subtheme: </span>
+                    <input type="text" id="setSubtheme" class="form-control" ngModel name="setSubtheme">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Year of Release: </span>
+                    <input type="text" id="setYear" class="form-control" ngModel name="setYear">
+                </div><div class="input-group">
+                    <span class="input-group-text">Set Price (price followed by " | "): </span>
+                    <input type="text" id="setRrp" class="form-control" ngModel name="setRrp">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Minifigure Count: </span>
+                    <input type="text" id="setFigs" class="form-control" ngModel name="setFigs">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Minifig Extras: </span>
+                    <input type="text" id="figExtra" class="form-control" ngModel name="figExtra">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Where to Buy: </span>
+                    <input type="text" id="setAvail" class="form-control" ngModel name="setAvail">
+                </div>
+                </div>
+
+                <button class="btn btn-primary" type="submit">
+                    Update Info
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

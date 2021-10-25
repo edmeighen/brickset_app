@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <form #postForm="ngForm" (ngSubmit) = "onAddSetCard(postForm.value)">
+                <div class="col-6">
+                <div class="input-group">
+                    <span class="input-group-text">Set Name: </span>
+                    <input type="text" id="setName" class="form-control" ngModel name="setName">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Set Number: </span>
+                    <input type="text" id="setNumber" class="form-control" ngModel name="setNumber">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Set Picture ( include "./assets/"): </span>
+                    <input type="text" id="imgPath" class="form-control" ngModel name="imgPath">
+                </div>
+                </div>
+                
+
+                <button class="btn btn-primary" type="submit">
+                    Update Info
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -12,4 +12,10 @@ export class MoreService {
     getSetCardInfo() {
         return this.http.get<SetCards[]>(this.url);
     }
+
+    addSetCard(data: MoreService) {
+        return this.http.post(this.url, data);
+        //post - new entry
+        //put - modifies old entry
+    }
 }

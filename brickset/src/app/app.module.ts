@@ -21,6 +21,12 @@ import { SetCardsComponent } from './body/set-cards.component';
 import { MoreComponent } from './body/more/more.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './headers/user-info.component';
+import { EditUserInfoComponent } from './body/edit-user-info.component';
+import { FormsModule } from '@angular/forms';
+import { AddSetComponent } from './body/more/add-set.component';
+import { MySetCardComponent } from './body/my-sets/set-card.component';
+import { MySetCardsInComponent } from './body/my-sets/my-set-in.component';
+import { AddMySetComponent } from './body/my-sets/add-my-set.component';
 
 
 @NgModule({
@@ -42,12 +48,18 @@ import { UserInfoComponent } from './headers/user-info.component';
     OurDatabaseComponent,
     SetCardsComponent,
     MoreComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    EditUserInfoComponent,
+    AddSetComponent,
+    MySetCardComponent,
+    MySetCardsInComponent,
+    AddMySetComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

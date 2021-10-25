@@ -1,0 +1,52 @@
+{
+  "SetCards" : {
+    "set1" : {
+      "altId" : "db",
+      "figExtra" : "(19 Unique to this set)",
+      "imgPath" : "./assets/dailybugle.jpeg",
+      "pieceCount" : "3772",
+      "setAvail" : "Lego",
+      "setFigs" : "25",
+      "setName" : "Daily Bugle",
+      "setNumber" : "76178",
+      "setRrp" : "$300 | ",
+      "setSubtheme" : "\"Superheroes",
+      "setTheme" : "Marvel",
+      "setYear" : "2021"
+    },
+    "set2" : {
+      "altId" : "bm",
+      "figExtra" : "(2 Unique to this set)",
+      "imgPath" : "./assets/batmobile.jpg",
+      "pieceCount" : "76139",
+      "setAvail" : "Lego",
+      "setFigs" : "3",
+      "setName" : "1989 Batmobile",
+      "setNumber" : "76139",
+      "setRrp" : "$250 | ",
+      "setSubtheme" : "Superheroes",
+      "setTheme" : "DC",
+      "setYear" : "2019"
+    },
+    "set3" : {
+      "altId" : "e1",
+      "figExtra" : "",
+      "imgPath" : "./assets/e1.jpg",
+      "pieceCount" : "2352",
+      "setAvail" : "Lego",
+      "setFigs" : "0",
+      "setName" : "Ghostbusters ECTO-1",
+      "setNumber" : "10274",
+      "setRrp" : "$200 | ",
+      "setSubtheme" : "Vehicles",
+      "setTheme" : "Creator Expert",
+      "setYear" : "2020"
+    }
+  },
+  "my-info" : {
+    "FirstName" : "Ethan",
+    "GitHub" : "https://github.com/edmeighen/brickset_app",
+    "LastName" : "Meighen",
+    "mix_id" : "edmeighen"
+  }
+}
