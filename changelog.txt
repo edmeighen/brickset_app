@@ -2,6 +2,23 @@ Ethan Meighen
 CS 230
 Brickset Change Log
 
+
+Assignment 8:
+Main features:
+-Added form to more component to send date to backend firebase
+and make more set cards
+
+Bonus features:
+-Added new my-set cards with same ngFor technique getting data from fireplace backend
+-Added a form to create new my-set cards
+
+To Do:
+-Icons
+-Hoverable Buttons
+-Format my-set cards
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
 Assignment 7:
 Main features:
 -Added service component to communicate with backend
