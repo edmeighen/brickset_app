@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { DatabaseService } from "../database.service";
 import { MySetCardService } from "./set-card.service";
 
 
@@ -7,8 +8,8 @@ import { MySetCardService } from "./set-card.service";
     templateUrl: 'add-my-set.component.html'
 })
 export class AddMySetComponent {
-    constructor(private mySetCardService: MySetCardService) {
-        
+    constructor(private mySetCardService: MySetCardService, private dbService:DatabaseService) {
+        this.dbService.showMySets();
     }
 
     onAddSetCard(data:MySetCardService) {

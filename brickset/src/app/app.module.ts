@@ -27,7 +27,8 @@ import { AddSetComponent } from './body/more/add-set.component';
 import { MySetCardComponent } from './body/my-sets/set-card.component';
 import { MySetCardsInComponent } from './body/my-sets/my-set-in.component';
 import { AddMySetComponent } from './body/my-sets/add-my-set.component';
-
+import { environment } from 'src/environments/environment';
+import { AngularFireModule } from '@angular/fire/compat';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { AddMySetComponent } from './body/my-sets/add-my-set.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig, 'brickset-app')
   ],
   providers: [],
   bootstrap: [AppComponent]

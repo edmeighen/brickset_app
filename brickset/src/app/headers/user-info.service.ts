@@ -13,7 +13,7 @@ export class UserInfoService {
     }
 
     editUserInfo(data: UserInfo) {
-        return this.http.put(this.url, data);
+        return this.http.post(this.url, data);
         //post - new entry
         //put - modifies old entry
     }
