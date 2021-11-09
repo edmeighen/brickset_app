@@ -6,6 +6,7 @@ import { BuyComponent } from './body/buy/buy.component';
 import { ForumComponent } from './body/forum/forum.component';
 import { MySetsComponent } from './body/my-sets/my-sets.component';
 import { MoreComponent } from './body/more/more.component';
+import { AuthComponent } from './auth/auth.component';
 
 const routes: Routes = [
     { path: 'home', component: HomeComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
     { path: 'buy', component: BuyComponent },
     { path: 'forum', component: ForumComponent },
     { path: 'mysets', component: MySetsComponent },
-    { path: 'more', component: MoreComponent }
+    { path: 'more', component: MoreComponent },
+    { path: 'auth', component: AuthComponent}
   ];
 
 @NgModule({

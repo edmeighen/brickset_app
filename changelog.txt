@@ -2,6 +2,20 @@ Ethan Meighen
 CS 230
 Brickset Change Log
 
+Assignment 9:
+Main features:
+-Configured Angular Firebase
+-Made a new database service
+-Deployed web application
+
+Bonus Features:
+-Finally added icon cod, icons not showing up
+
+To Do:
+-Fix icons
+-Hover buttons
+
+---------------------------------------------------------------------------------------------------------------------------------------
 
 Assignment 8:
 Main features:

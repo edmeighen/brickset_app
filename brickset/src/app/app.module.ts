@@ -29,6 +29,7 @@ import { MySetCardsInComponent } from './body/my-sets/my-set-in.component';
 import { AddMySetComponent } from './body/my-sets/add-my-set.component';
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { AngularFireModule } from '@angular/fire/compat';
     AddSetComponent,
     MySetCardComponent,
     MySetCardsInComponent,
-    AddMySetComponent
+    AddMySetComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
