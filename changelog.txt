@@ -2,6 +2,12 @@ Ethan Meighen
 CS 230
 Brickset Change Log
 
+Assignment 10:
+-Enabled Firebase authentication
+-Added authentication through Firebase with routing to /auth
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
 Assignment 9:
 Main features:
 -Configured Angular Firebase
@@ -9,7 +15,7 @@ Main features:
 -Deployed web application
 
 Bonus Features:
--Finally added icon cod, icons not showing up
+-Finally added icon code, icons not showing up
 
 To Do:
 -Fix icons
